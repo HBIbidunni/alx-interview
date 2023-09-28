@@ -20,7 +20,7 @@ print(triangle)
 The pascal_triangle function takes an integer `n` as input and returns a list of lists representing Pascal's Triangle up to `n rows`.
 
 __Example Output__
-For `n = 5`, the generated __Pascal's Triangle__ would look like this:
+For `n = 5`, the sample is like this:
 
 [
     [1],
@@ -29,5 +29,14 @@ For `n = 5`, the generated __Pascal's Triangle__ would look like this:
     [1, 3, 3, 1],
     [1, 4, 6, 4, 1]
 ]
+
+For `n = 5`, the generated __Pascal's Triangle__ would look like this:
+
+|        |        |        |        |   1    |        |        |        |
+|        |        |        |   1    |        |   1    |        |        |
+|        |        |   1    |        |   2    |        |   1    |        |
+|        |   1    |        |   3    |        |   3    |        |   1    |
+|   1    |        |   4    |        |   6    |        |   4    |        |   1    |
+
 
 Enjoy exploring __Pascal's Triangle__ with this __Python__ script!
