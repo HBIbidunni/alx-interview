@@ -1,10 +1,10 @@
-# Star Wars API; The ALX Project
+# Star Wars API :film_strip::clapper:; The ALX Project
 -------------
 This script fetches and prints the names of characters from a specific 
 __Star Wars movie__ using the __Star Wars API__. 
 The movie ID is provided as a command-line argument.
 
-# Project Requirements :computer::heavy_cheak_mark: 
+# Project Requirements :computer::heavy_check_mark: 
 
 - All files will be interpreted on `Ubuntu 20.04 LTS` using node (`version 10.14.x`)
 - All files should end with a new line
@@ -14,7 +14,7 @@ The movie ID is provided as a command-line argument.
 - __The following prerequisites must be installed: Node.js version 10, 
 a JavaScript runtime environment, and some related modules, for instance:__
 
-1. To install `Node.js version 10` use:
+__1. To install `Node.js version 10` use:__
 
 ```
 $ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
@@ -22,14 +22,14 @@ $ sudo apt-get install -y nodejs
 
 ```
 
-2. To install `semi-standard` use:
+__2. To install `semi-standard` use:__
 
 ```
 $ sudo npm install semistandard --global
 
 ```
 
-3. To install `request module` use:
+__3. To install `request module` use:__
 
 ```
 $ sudo npm install request --global
@@ -53,7 +53,7 @@ Replace [`movieID`] with the desired __Star Wars movie ID 3 = “Return of the J
 
 This will display the characters from the __Star Wars movie ID 3 = “Return of the Jedi”__.
 
-## How It Works
+## How It Works :dart:
 
 - The script takes a movie ID as a command-line argument.
 - It makes a `GET` request to the __Star Wars API's /films/__ 
@@ -76,7 +76,7 @@ using their respective URLs obtained from the requestCharacters() function.
 It calls requestCharacters() to fetch character URLs, then calls requestNames() 
 to fetch character names, and finally prints the names of characters to the console.
 
-__Example Output__
+__Example Output :movie_camera:__
 
 ```
 Luke Skywalker
