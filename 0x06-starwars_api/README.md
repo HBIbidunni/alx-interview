@@ -78,7 +78,7 @@ using their respective URLs obtained from the requestCharacters() function.
 It calls requestCharacters() to fetch character URLs, then calls requestNames() 
 to fetch character names, and finally prints the names of characters to the console.
 
-__Example Output :movie_camera:__
+__Example Output :movie_camera::dart:__
 
 ```
 Luke Skywalker
