@@ -4,6 +4,8 @@ This script fetches and prints the names of characters from a specific
 __Star Wars movie__ using the __Star Wars API__. 
 The movie ID is provided as a command-line argument.
 
+![AbramsBooks image](https://www.abramsbooks.com/cover_images/6/9781419767876_s3.jpg)
+
 # Project Requirements :computer::heavy_check_mark: 
 
 - All files will be interpreted on `Ubuntu 20.04 LTS` using node (`version 10.14.x`)
