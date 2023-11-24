@@ -59,7 +59,7 @@ makeChange([1, 2, 25], 37)
 ```
 
 Initialize min_coins as [`0, inf, inf, ..., inf`].
-Iterate through each coin (1, 2, 25):
+Iterate through each coin (`1, 2, 25`):
 - For coin 1: Update min_coins[1], min_coins[2], ..., min_coins[37].
 - For coin 2: Update min_coins[2], min_coins[4], ..., min_coins[36].
 - For coin 25: Update min_coins[25], min_coins[26], ..., min_coins[37].
