@@ -8,8 +8,8 @@ forming a triangular pattern of numbers.
 
 ## How to Use
 To use this Pascal's Triangle generator, 
-call the __pascal_triangle(n) function__, where `n` is the number of rows needed in the triangle.
-
+call the __pascal_triangle(n) function__, 
+where `n` is the number of rows needed in the triangle.
 from pascal_triangle import pascal_triangle
 
 ### Example: Generate Pascal's Triangle with 5 rows
