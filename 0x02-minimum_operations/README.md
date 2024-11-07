@@ -14,3 +14,9 @@ Starting with a single character `H`, only two operations can be performed:
 - `Paste`: Paste the copied characters at the end of the existing ones.
 Given a target integer `n`, the objective is to find the minimum number of 
 operations required to have exactly `n` characters of `H` in the file.
+
+## Requirements
+
+- __Python 3__ is required to run this code.
+- The code should follow the __PEP 8__ coding style.
+- All functions and methods must include docstrings explaining their functionality.
