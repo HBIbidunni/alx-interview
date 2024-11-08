@@ -20,3 +20,9 @@ operations required to have exactly `n` characters of `H` in the file.
 - __Python 3__ is required to run this code.
 - The code should follow the __PEP 8__ coding style.
 - All functions and methods must include docstrings explaining their functionality.
+
+## Solution Strategy
+The goal is to solve the __problem statement__ by reaching exactly `n` characters 
+using the minimum number of operations. This could be solved using factorization. 
+The main insight is that each time `n` is divided by a smaller factor, 
+`Copy All` and `Paste` operations are applied effectively to minimize steps.
