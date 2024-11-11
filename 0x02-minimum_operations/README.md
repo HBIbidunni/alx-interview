@@ -25,4 +25,14 @@ operations required to have exactly `n` characters of `H` in the file.
 The goal is to solve the __problem statement__ by reaching exactly `n` characters 
 using the minimum number of operations. This could be solved using factorization. 
 The main insight is that each time `n` is divided by a smaller factor, 
-`Copy All` and `Paste` operations are applied effectively to minimize steps.
+`Copy All` and `Paste` operations are applied effectively to minimize steps 
+indicating that if `n` is brokendown into prime factors, the minimum number of 
+operations would be the sum of these prime factors.
+
+__Steps in the Algorithm__
+
+- `Prime Factorization`: Breakdown the target number `n` into its prime factors.
+For each  __factor f__, add it to the count of operations as it represents the 
+necessary steps (__copying and pasting__) to reach a size divisible by `f`.
+
+- `Sum of Factors`: Once the factors have been identified, sum them to get the minimum number of steps.
