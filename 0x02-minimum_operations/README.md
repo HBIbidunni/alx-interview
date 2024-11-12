@@ -35,4 +35,5 @@ __Steps in the Algorithm__
 For each  __factor f__, add it to the count of operations as it represents the 
 necessary steps (__copying and pasting__) to reach a size divisible by `f`.
 
-- `Sum of Factors`: Once the factors have been identified, sum them to get the minimum number of steps.
+- `Sum of Factors`: Once the factors have been identified, sum them up to get 
+the minimum number of steps.
