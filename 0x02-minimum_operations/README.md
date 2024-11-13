@@ -36,4 +36,14 @@ For each  __factor f__, add it to the count of operations as it represents the
 necessary steps (__copying and pasting__) to reach a size divisible by `f`.
 
 - `Sum of Factors`: Once the factors have been identified, sum them up to get 
-the minimum number of steps.
+the minimum number of steps. For instance:
+
+```
+- For `n = 9`:
+Decompose 9 into 3 * 3, to get 3 + 3 = 6 operations.
+
+- For `n = 18`:
+Decompose 18 into 2 * 3 * 3, to get 2 + 3 + 3 = 8 operations.
+
+```
+
