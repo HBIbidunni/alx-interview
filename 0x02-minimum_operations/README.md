@@ -50,3 +50,8 @@ Decompose 18 into 2 * 3 * 3, to get 2 + 3 + 3 = 8 operations.
 __Function Prototype__
 The main function, `minOperations`, should have the following prototype:
 
+```
+def minOperations(n: int) -> int:
+
+```
+
