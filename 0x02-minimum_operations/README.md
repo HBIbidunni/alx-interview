@@ -58,3 +58,20 @@ def minOperations(n: int) -> int:
 - __Parameters__: `n` (an integer representing the target number of `H` characters).
 - __Returns__: Minimum number of operations to reach exactly `n` characters.
 If `n` is impossible to reach (e.g., `n < 2`), the function should __return 0__.
+
+__Usage__
+An example of usuage is presented below:
+
+```
+# Import the function
+from 0x02-minimum_operations import minOperations
+
+# Example
+n = 9
+print(minOperations(n))  # The Output is 6
+
+n = 18
+print(minOperations(n))  # The Output is 8
+
+```
+
