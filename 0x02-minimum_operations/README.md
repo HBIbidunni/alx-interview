@@ -74,4 +74,9 @@ n = 18
 print(minOperations(n))  # The Output is 8
 
 ```
+__Explanation__
+For `n = 18`, the operations sequence would follow:
+
+Copy all (`1 operation`), Paste 2 (`total 2 characters`).
+Paste (`4 characters`), Paste (`6 characters`), Paste (`12 characters`).
 
