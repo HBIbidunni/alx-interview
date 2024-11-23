@@ -81,3 +81,4 @@ Copy all (`1 operation`), Paste 2 (`total 2 characters`).
 Paste (`4 characters`), Paste (`6 characters`), Paste (`12 characters`).
 Copy all, Paste (`18 characters`)
 
+The sum of the prime factors for `18` (`2`, `3`, `3`) gives __8 operations__.
