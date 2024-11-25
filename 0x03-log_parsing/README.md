@@ -49,8 +49,8 @@ __Lines that do not match this format are skipped.__
 
 __Statistics to be Computed__
 
-1) Total File Size: Sum of all <file size> encountered in the input.
-2) Number of Lines by Status Code: Count of lines for each status code 
+1) `Total File Size`: Sum of all <file size> encountered in the input.
+2) `Number of Lines by Status Code`: Count of lines for each status code 
 (__200__, __301__, __400__, __401__, __403__, __404__, __405__, __500__).
 
 ```
