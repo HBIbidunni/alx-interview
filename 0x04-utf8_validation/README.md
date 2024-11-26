@@ -56,15 +56,15 @@ is incorrect or the data set contains invalid byte sequences.
 
 __For Instance__:
 
-- `Input`: [197, 130, 1]
-- `First Byte` (197): Binary representation: `11000101`. Indicates a 2-byte character. Valid.
-- `Second Byte` (130): Binary representation: `10000010`. Indicates a continuation byte. Valid.
-- `Third Byte` (1): Binary representation: `00000001`. Indicates a 1-byte character. Valid.
+- `Input`: [__197__, __130__, __1__]
+- `First Byte` (__197__): Binary representation: `11000101`. Indicates a 2-byte character. Valid.
+- `Second Byte` (__130__): Binary representation: `10000010`. Indicates a continuation byte. Valid.
+- `Third Byte` (__1__): Binary representation: `00000001`. Indicates a 1-byte character. Valid.
 
 __The input represents a valid UTF-8 encoding__.
 
 ```
-result = validUTF8([197, 130, 1])
+result = validUTF8([__197__, __130__, __1__])
 print(result)  # Output: True
 
 ```
