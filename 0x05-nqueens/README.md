@@ -69,12 +69,12 @@ by checking the validity of the placement at each step.
 __Backtracking Algorithm__: :bulb:
 
 The backtracking algorithm is used to solve combinatorial problems, 
-like the N Queens problem, by trying out different possibilities and 
+like the __N Queens__ problem, by trying out different possibilities and 
 backtracking when a solution cannot be achieved. 
-Here's a high-level explanation of the backtracking algorithm for N Queens:
+Here's a high-level explanation of the backtracking algorithm for __N Queens__:
 
 Start in the first row and place a queen in the first column.
 Move to the next row and try placing a queen in each column until a valid placement is found.
-If a queen can be placed, move to the next row and repeat step 2.
+If a queen can be placed, move to the next row and repeat __step 2__.
 If no valid placement is found, backtrack to the previous row and change the placement of the queen in that row.
-Repeat steps 2-4 until all queens are placed or all possibilities are explored.
+__Repeat steps 2-4 until all queens__ are placed or all possibilities are explored.
