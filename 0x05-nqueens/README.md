@@ -73,8 +73,8 @@ like the __N Queens__ problem, by trying out different possibilities and
 backtracking when a solution cannot be achieved. 
 Here's a high-level explanation of the backtracking algorithm for __N Queens__:
 
-Start in the first row and place a queen in the first column.
-Move to the next row and try placing a queen in each column until a valid placement is found.
-If a queen can be placed, move to the next row and repeat __step 2__.
-If no valid placement is found, backtrack to the previous row and change the placement of the queen in that row.
-__Repeat steps 2-4 until all queens__ are placed or all possibilities are explored.
+1) Start in the first row and place a queen in the first column.
+2) Move to the next row and try placing a queen in each column until a valid placement is found.
+3) If a queen can be placed, move to the next row and repeat __step 2__.
+4) If no valid placement is found, backtrack to the previous row and change the placement of the queen in that row.
+5) __Repeat steps 2-4 until all queens__ are placed or all possibilities are explored.
