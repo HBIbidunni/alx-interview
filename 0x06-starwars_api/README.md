@@ -71,7 +71,7 @@ The module is utilized for fetching movie and character data from the __Star War
 
 __Code Structure__:
 
-- `requestCharacters() Function`: This asynchronous function fetches the list of character URLs from the specified Star Wars movie.
+- `requestCharacters() Function`: This asynchronous function fetches the list of character URLs from the specified __Star Wars movie__.
 - `requestNames() Function`: This asynchronous function fetches the names of characters 
 using their respective URLs obtained from the requestCharacters() function.
 - `getCharNames() Function`: This main function orchestrates the entire process. 
