@@ -35,7 +35,7 @@ in a circular manner.
 - The operation is repeated for inner layers until the pointers meet.
 
 `Usuage Instructions`
-Import the `rotate_2d_matrix` function into the project or 
+- Import the `rotate_2d_matrix` function into the project or 
 run the script directly to test the rotation.
 
 For instance:
