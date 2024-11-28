@@ -54,7 +54,7 @@ __Implementation Details of the Example Usage__
 __For instance__
 
 ```
-makeChange([1, 2, 25], 37)
+makeChange([`1, 2, 25`], `37`)
 
 ```
 
