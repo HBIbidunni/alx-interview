@@ -34,7 +34,7 @@ print(island_perimeter(grid))  # Output: 12
 
 __Code Explanation :briefcase::computer:__
 
-- The island_perimeter function takes a grid as input and calculates the perimeter of the island represented by the grid.
+- The __island_perimeter function__ takes a grid as input and calculates the perimeter of the island represented by the grid.
 - The grid is a list of lists of integers where `0` represents water and `1` represents land.
 - Each cell in the grid is square with a side length of `1`.
 - Cells are connected horizontally/vertically (__not diagonally__).
