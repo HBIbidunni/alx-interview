@@ -8,7 +8,7 @@ starting from `1` up to and including `n`.
 The selected __prime number__ and __its multiples__ are then removed from the set. 
 The player who cannot make a move loses the game. The objective is to determine, assuming 
 `Maria` always goes first and both players play optimally, who the winner of each game is.
-Both players take turns and __choose prime numbers to accumulate points__. 
+__Both players__ take turns and __choose prime numbers to accumulate points__. 
 The game continues until there are __no more prime numbers left__.
 
 __Function Prototype__
